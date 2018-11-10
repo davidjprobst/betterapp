@@ -33,25 +33,24 @@ class HomeViewController: UITableViewController, SectionHeaderDelegate {
             return (sectionData[section]?.count)!
     }
     
-    func onEditButton() {
-    
+    func onEditButton(sectionNumber: Int) {
+        print(sectionNumber)
     }
-    
-    
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let sectionHeader: SectionHeader = UIView.fromNib()
         
         sectionHeader.headerTitle.text = sectionTitles[section]
+        sectionHeader.sectionNumber = section
         sectionHeader.headerTitle.text = sectionHeader.headerTitle.text?.uppercased()
         sectionHeader.delegate = self
 
         switch section {
         case 0:
             sectionHeader.headerTitle.textColor = UIColor(red:1, green:0.84, blue:0.04, alpha:1)
-            
         case 1:
             sectionHeader.headerTitle.textColor = UIColor(red:0.07, green:0.74, blue:0.98, alpha:1)
+            sectionHeader.hideEditButton()
         case 2:
             sectionHeader.headerTitle.textColor = UIColor(red:0.84, green:0.55, blue:0.91, alpha:1)
         default:

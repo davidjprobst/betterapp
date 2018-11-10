@@ -11,15 +11,22 @@ import UIKit
 
 class SectionHeader: UIView {
     
-    var delegate: SectionHeaderDelegate?
+    var sectionNumber = 0
+    
+    weak var delegate: SectionHeaderDelegate?
     
     @IBOutlet weak var headerTitle: UILabel!
+    @IBOutlet weak var editButton: UIButton!
     @IBAction func editButton(_ sender: Any) {
-        delegate?.onEditButton()
+        delegate?.onEditButton(sectionNumber: sectionNumber)
+    }
+    
+    func hideEditButton() {
+        editButton.isHidden = true
     }
     
 }
 
-protocol SectionHeaderDelegate {
-    func onEditButton()
+protocol SectionHeaderDelegate: class {
+    func onEditButton(sectionNumber: Int)
 }

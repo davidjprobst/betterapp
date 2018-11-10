@@ -188,7 +188,6 @@
                                         <constraint firstItem="XJg-Mc-ZsX" firstAttribute="leading" secondItem="OF8-WI-3Db" secondAttribute="leading" constant="19" id="CX6-hh-aLW"/>
                                         <constraint firstItem="XJg-Mc-ZsX" firstAttribute="top" secondItem="OF8-WI-3Db" secondAttribute="top" constant="22" id="QSr-bT-QdJ"/>
                                         <constraint firstItem="tv3-af-s9y" firstAttribute="top" secondItem="OF8-WI-3Db" secondAttribute="top" constant="12" id="RW8-qE-nQQ"/>
-                                        <constraint firstAttribute="bottom" secondItem="XJg-Mc-ZsX" secondAttribute="bottom" constant="22" id="b6B-z2-vEP"/>
                                         <constraint firstAttribute="trailing" secondItem="tv3-af-s9y" secondAttribute="trailing" constant="16" id="cif-ct-GGA"/>
                                         <constraint firstItem="0p9-Tb-3dj" firstAttribute="top" secondItem="tv3-af-s9y" secondAttribute="bottom" constant="4" id="dhE-sY-PXO"/>
                                         <constraint firstItem="tv3-af-s9y" firstAttribute="leading" secondItem="XJg-Mc-ZsX" secondAttribute="trailing" constant="11" id="hBa-u5-BoW"/>
@@ -214,9 +213,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kdV-CH-c2V">
                                             <rect key="frame" x="19" y="15.5" width="22" height="22"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="22" id="Oen-Pa-CXh"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="PUt-bZ-EiD"/>
-                                                <constraint firstAttribute="height" constant="22" id="VBk-b8-vto"/>
+                                                <constraint firstAttribute="height" constant="22" id="PUt-bZ-EiD"/>
                                                 <constraint firstAttribute="width" constant="22" id="jnO-ek-Oh4"/>
                                             </constraints>
                                         </imageView>
