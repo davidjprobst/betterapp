@@ -104,6 +104,5 @@ class HomeViewController: UITableViewController, SectionHeaderDelegate {
         }
     }
 
-}
-    
+}    
 
