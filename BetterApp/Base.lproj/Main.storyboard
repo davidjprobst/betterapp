@@ -117,17 +117,31 @@
                                     <segue destination="Oi0-Ys-KE4" kind="embed" id="kIF-EE-8vW"/>
                                 </connections>
                             </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kag-WB-0Y3">
+                                <rect key="frame" x="16" y="453" width="288" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1Em-vM-SrK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.10980392160000001" green="0.1215686275" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="L77-cp-b3U" firstAttribute="top" secondItem="NyG-79-4CT" secondAttribute="top" id="E03-7L-rYM"/>
                             <constraint firstItem="HnI-Co-Wkm" firstAttribute="leading" secondItem="NyG-79-4CT" secondAttribute="leading" id="HJI-LN-ojq"/>
+                            <constraint firstItem="Kag-WB-0Y3" firstAttribute="leading" secondItem="NyG-79-4CT" secondAttribute="leading" constant="16" id="J0m-P4-xan"/>
                             <constraint firstItem="HnI-Co-Wkm" firstAttribute="trailing" secondItem="NyG-79-4CT" secondAttribute="trailing" id="OQ5-df-fZx"/>
                             <constraint firstItem="L77-cp-b3U" firstAttribute="leading" secondItem="NyG-79-4CT" secondAttribute="leading" id="eOb-v1-Wkw"/>
                             <constraint firstItem="HnI-Co-Wkm" firstAttribute="top" secondItem="VnR-48-g9b" secondAttribute="bottom" id="iFm-qt-D4q"/>
                             <constraint firstItem="HnI-Co-Wkm" firstAttribute="bottom" secondItem="NyG-79-4CT" secondAttribute="bottom" id="iqC-2S-swi"/>
                             <constraint firstItem="L77-cp-b3U" firstAttribute="trailing" secondItem="NyG-79-4CT" secondAttribute="trailing" id="kmb-R4-pHs"/>
+                            <constraint firstItem="NyG-79-4CT" firstAttribute="trailing" secondItem="Kag-WB-0Y3" secondAttribute="trailing" constant="16" id="lA6-n5-Wsq"/>
+                            <constraint firstItem="NyG-79-4CT" firstAttribute="bottom" secondItem="Kag-WB-0Y3" secondAttribute="bottom" constant="16" id="lSq-6g-Lto"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NyG-79-4CT"/>
                     </view>
